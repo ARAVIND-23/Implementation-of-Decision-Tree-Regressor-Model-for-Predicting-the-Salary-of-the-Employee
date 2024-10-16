@@ -8,7 +8,7 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 1. Import the standard libraries.
+1. Import the standard libraries.
 2. Upload the dataset and check for any null values using .isnull()
 function.
 3. Import LabelEncoder and encode the dataset.
@@ -27,10 +27,12 @@ model on the dataset.
 Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
 Developed by: ARAVIND G
 RegisterNumber: 212223240011
-
+/*
+```
 import pandas as pd
 data=pd.read_csv("/content/Salary.csv")
 data.head()
+```
 ![Screenshot 2024-10-16 145037](https://github.com/user-attachments/assets/28caa432-0e4d-4fe0-bc4e-6c83bb3b9219)
 data.info()
 ![Screenshot 2024-10-16 145239](https://github.com/user-attachments/assets/d172288e-2e70-4e9e-b6a2-ea41c9f3505b)
@@ -60,7 +62,7 @@ dt.predict([[5,6]])
 ![Screenshot 2024-10-16 145714](https://github.com/user-attachments/assets/44e54d9f-3f68-4272-8d8f-641b0031366d)
 
 
-*/
+
 ```
 
 
