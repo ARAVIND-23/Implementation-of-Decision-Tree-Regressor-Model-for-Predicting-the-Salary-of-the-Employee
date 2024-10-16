@@ -28,12 +28,13 @@ Program to implement the Decision Tree Regressor Model for Predicting the Salary
 Developed by: ARAVIND G
 RegisterNumber: 212223240011
 /*
-```
+
 import pandas as pd
 data=pd.read_csv("/content/Salary.csv")
 data.head()
 ```
 ![Screenshot 2024-10-16 145037](https://github.com/user-attachments/assets/28caa432-0e4d-4fe0-bc4e-6c83bb3b9219)
+```
 data.info()
 ![Screenshot 2024-10-16 145239](https://github.com/user-attachments/assets/d172288e-2e70-4e9e-b6a2-ea41c9f3505b)
 data.isnull().sum()
